@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\services">
+      <UniqueIdentifier>{f513d7b9-7aae-42fa-ba3a-ea2143c2abed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\handlers">
+      <UniqueIdentifier>{acd395ae-44fb-40a4-9727-5491a2817316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\services">
+      <UniqueIdentifier>{12285aac-1d8a-4c1b-b622-e5c61f1e3436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\handlers">
+      <UniqueIdentifier>{834fcef0-57e5-4472-949e-0f9fc84d758a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\arrangers">
+      <UniqueIdentifier>{67a19127-7dad-4a81-887c-ab5a401633ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\arrangers">
+      <UniqueIdentifier>{81073806-b459-4cdf-bbfd-018fdc1949f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="homeService.cpp">
+      <Filter>Resource Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="homeHandler.cpp">
+      <Filter>Resource Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="actionArranger.cpp">
+      <Filter>Resource Files\arrangers</Filter>
+    </ClCompile>
+    <ClCompile Include="actionShared.cpp">
+      <Filter>Resource Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="createHandler.cpp">
+      <Filter>Resource Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteHandler.cpp">
+      <Filter>Resource Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="notfoundHandler.cpp">
+      <Filter>Resource Files\handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Appstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homeService.h">
+      <Filter>Header Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="homeHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="actionArranger.h">
+      <Filter>Header Files\arrangers</Filter>
+    </ClInclude>
+    <ClInclude Include="actionShared.h">
+      <Filter>Header Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="Taskstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="createHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="notfoundHandler.h">
+      <Filter>Header Files\handlers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

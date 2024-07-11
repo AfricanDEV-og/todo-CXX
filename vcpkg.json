@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    {
+      "name": "poco",
+      "features": [
+        "mysql"
+      ]
+    }
+  ]
+}
